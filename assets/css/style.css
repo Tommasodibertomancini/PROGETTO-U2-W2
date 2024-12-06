@@ -2,7 +2,7 @@
   width: 120px;
 }
 
-#avatar {
+#avatar{
   width: 40px;
 }
 
@@ -20,6 +20,38 @@
   scale: 1.2;
 }
 
-.images:hover {
+#avatarProfile {
+    width: 65%;
+}
+
+.form-check:checked,
+.form-check,
+.form-check:focus {
+    background-color: transparent;
+    border: 1px solid #6c757d;
+    box-shadow: none;
+    border-radius: 0;
+ 
+}
+
+.film img {
+    opacity: 0.8;
+}
+
+.film img:hover {
     opacity: 1;
 }
+
+.customText {
+    background-color: var(--bs-secondary);
+    color: var(--bs-white);
+    border: 1px solid var(--bs-secondary);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .customText:focus {
+    background-color: var(--bs-white);
+    color: var(--bs-black);
+    border-color: var(--bs-black);
+  }
+  

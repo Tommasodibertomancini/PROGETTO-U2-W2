@@ -1,7 +1,25 @@
 #logo {
-    width: 120px;
+  width: 120px;
 }
 
 #avatar {
-    width: 40px;
+  width: 40px;
+}
+
+#avatarSmall {
+  width: 28px;
+}
+
+.film {
+  cursor: pointer;
+  transition: scale 0.3s;
+ 
+}
+
+.film:hover {
+  scale: 1.2;
+}
+
+.images:hover {
+    opacity: 1;
 }
